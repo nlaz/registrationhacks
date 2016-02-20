@@ -13,6 +13,7 @@
 /*
  * Primary Blue: #44D5FF;
  * Dark Blue: #0F2C34;
+ * Primary Pink: #FF7FA8;
  */
 
 * {
@@ -30,7 +31,7 @@ body {
 
 .hero {
   background-color: #44D5FF;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .hero img {
@@ -39,7 +40,7 @@ body {
 
 .hero hr {
   border-top: 15px solid #0F2C34;
-  margin: 0 -15px;
+  margin: 0;
   position: relative;
   top: -15px;
 }
@@ -127,4 +128,40 @@ body {
 .info .item p {
   font-size: 22px;
 }
+
+/*
+ * FAQ Section
+ */
+
+.faq {
+  background-color: #FF7FA8;
+  margin-top: 40px;
+  padding: 100px 0;
+}
+
+.faq h1 {
+  font-family: 'Montserrat';
+  margin: 30px 0;
+}
+
+.faq .question h2 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+}
+
+.faq .question hr {
+  border-top: 8px solid #0F2C34;
+  margin: 20px 0;
+  width: 80px;
+}
+
+.faq .question p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+
+
+
+
 
