@@ -76,7 +76,7 @@ body {
 }
 
 /* 
- * Info Section
+ * About Section
  */
 
 .about {
@@ -98,3 +98,33 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+
+/*
+ * Info Section
+ */
+
+.info {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 100px 0;
+}
+
+.info .item {
+  padding: 20px;
+}
+
+.info .item h1 {
+  font-family: 'Montserrat';
+  font-size: 45px;
+  margin: 40px 0 40px 0;
+}
+
+.info .item img {
+  max-width: 220px;
+}
+
+.info .item p {
+  font-size: 22px;
+}
+
