@@ -136,7 +136,7 @@ body {
 .faq {
   background-color: #FF7FA8;
   margin-top: 40px;
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .faq h1 {
@@ -160,6 +160,11 @@ body {
   line-height: 1.5em;
 }
 
+
+.faq img {
+  margin-top: 40px;
+  width: 300px;
+}
 
 
 
