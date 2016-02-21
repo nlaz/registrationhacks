@@ -23,6 +23,7 @@
 
 body {
   background-color: #44D5FF;
+  overflow-x: hidden;
 }
 
 /* 
@@ -82,10 +83,10 @@ body {
  */
 
 .about {
-  border: 15px solid #0F2C34;
   border-width: 15px 0;
   background-color: #fff;
   padding: 100px 0;
+  position: relative;
 }
 
 .about p {
@@ -101,6 +102,26 @@ body {
   text-transform: uppercase;
 }
 
+.about .slant-bottom,
+.about .slant-top {
+  background-color: #fff;
+  border: 0 solid #0F2C34;
+  height: 60px;
+  position: absolute;
+  width: 105%;
+}
+
+.about .slant-bottom {
+  border-bottom-width: 15px;
+  bottom: -40px;
+  transform: rotate(2deg);
+}
+
+.about .slant-top {
+  border-top-width: 15px;
+  top: -40px;
+  transform: rotate(-2deg);
+}
 
 /*
  * Info Section
@@ -108,8 +129,9 @@ body {
 
 .info {
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: 150px;
   padding: 100px 0;
+  position: relative;
 }
 
 .info .item {
@@ -131,14 +153,33 @@ body {
   font-size: 20px;
 }
 
+.info .slant-bottom,
+.info .slant-top {
+  background-color: #fff;
+  height: 60px;
+  position: absolute;
+  width: 105%;
+}
+
+.info .slant-bottom {
+  bottom: -40px;
+  transform: rotate(-2deg);
+}
+
+.info .slant-top {
+  top: -40px;
+  transform: rotate(2deg);
+}
+
 /*
  * FAQ Section
  */
 
 .faq {
   background-color: #FF7FA8;
-  margin-top: 40px;
+  margin-top: 150px;
   padding-top: 100px;
+  position: relative;
 }
 
 .faq h1 {
@@ -170,6 +211,15 @@ body {
   width: 300px;
 }
 
+.faq .slant-top {
+  background-color: #FF7FA8;
+  height: 60px;
+  position: absolute;
+  top: -40px;
+  transform: rotate(-2deg);
+  width: 105%;
+}
+
 /*
  * Footer Section
  */
@@ -190,4 +240,3 @@ body {
   font-weight: 400;
   margin: 0;
 }
-
