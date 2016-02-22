@@ -29,7 +29,7 @@ var getAccessToken = function() {
   var access_token;
 
   if (hasAccessToken()) {
-    access_token = window.location.href.split(/[&#]/).replace('access_token=', '');
+    access_token = window.location.href.split(/[&#]/)[1].replace('access_token=', '');
   }
 
   console.log(access_token);
