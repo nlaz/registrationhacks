@@ -20,14 +20,15 @@ var redirectPage = function(data) {
   for (var x in fields){
     var field = fields[x];
 
-    if (field === 'school'){
-      typeform_url += '&school=' + data[field]['name'];
-    } else {
-      typeform_url += '&' + field + '=' + data[field];
-    }
-    console.log(typeform_url);
-    window.location.href = typeform_url;
+    typeform_url += (x > 0) ? '&' : '?';
+
+    if (field === 'school')
+      data[field] = data[field]['name'];
+
+    typeform_url += field + '=' + data[field];
   }
+  console.log(typeform_url);
+  window.location.href = typeform_url;
 }
 
 var getAccessToken = function() {
