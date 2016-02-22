@@ -13,7 +13,7 @@ var formFill = function() {
 };
 
 var redirectPage = function(data) {
-  var typeform_url = "/typeform.html?";
+  var typeform_url = "/codefest/typeform.html?";
   for (var x in data){
     if (x === 'school'){
       typeform_url += '&school' + data[x]['name'];
