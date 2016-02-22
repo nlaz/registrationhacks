@@ -1,3 +1,5 @@
+var typeform_url = "https://codefest1.typeform.com/to/j7BmtO";
+
 var formFill = function() {
   var accessToken = getAccessToken(),
       request_url = "https://my.mlh.io/api/v1/user";
@@ -13,10 +15,13 @@ var formFill = function() {
 };
 
 var redirectPage = function(data) {
-  var typeform_url = "/codefest/typeform.html?";
-  for (var x in data){
+  var fields = ['first_name', 'last_name', 'email', 'graduation', 'major',
+                'shirt_size', 'dietary_restrictions', 'special_needs', 
+                'date_of_birth', 'gender', 'phone_number', 'school'];
+  
+  for (var x in fields){
     if (x === 'school'){
-      typeform_url += '&school' + data[x]['name'];
+      typeform_url += '&school=' + data[x]['name'];
     } else {
       typeform_url += '&' + x + '=' + data[x];
     }
