@@ -15,9 +15,7 @@ var formFill = function() {
 };
 
 var redirectPage = function(data) {
-  var fields = ['first_name', 'last_name', 'email', 'graduation', 'major',
-                'shirt_size', 'dietary_restrictions', 'special_needs', 
-                'date_of_birth', 'gender', 'phone_number', 'school'];
+  var fields = ['first_name', 'last_name', 'email', 'graduation', 'major', 'shirt_size', 'dietary_restrictions', 'special_needs', 'date_of_birth', 'gender', 'phone_number', 'school'];
   
   for (var x in fields){
     var field = fields[x];
