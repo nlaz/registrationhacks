@@ -20,10 +20,12 @@ var redirectPage = function(data) {
                 'date_of_birth', 'gender', 'phone_number', 'school'];
   
   for (var x in fields){
-    if (x === 'school'){
-      typeform_url += '&school=' + data[x]['name'];
+    var field = fields[x];
+
+    if (field === 'school'){
+      typeform_url += '&school=' + data[field]['name'];
     } else {
-      typeform_url += '&' + x + '=' + data[x];
+      typeform_url += '&' + field + '=' + data[field];
     }
     console.log(typeform_url);
     window.location.href = typeform_url;
