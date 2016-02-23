@@ -242,7 +242,7 @@ body {
 @media(max-width: 768px) {
   .slant-bottom, 
   .slant-top {
-    display: none;
+    transform: initial !important;
   }
 
   .hero .buttons a.apply,
