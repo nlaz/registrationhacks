@@ -32,7 +32,7 @@ body {
 
 .hero {
   background-color: #44D5FF;
-  min-height: 100vh;
+  min-height: 110vh;
 }
 
 .hero img {
@@ -47,7 +47,7 @@ body {
 }
 
 .hero .wrapper {
-  padding-top: 350px;
+  padding-top: 30vh;
 }
 
 .hero .buttons {
@@ -105,20 +105,17 @@ body {
 .about .slant-bottom,
 .about .slant-top {
   background-color: #fff;
-  border: 0 solid #0F2C34;
   height: 80px;
   position: absolute;
   width: 105%;
 }
 
 .about .slant-bottom {
-  border-bottom-width: 15px;
   bottom: -40px;
   transform: rotate(2deg);
 }
 
 .about .slant-top {
-  border-top-width: 15px;
   top: -40px;
   transform: rotate(-2deg);
 }
@@ -240,4 +237,12 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
+}
+
+@media(max-width: 768px) {
+  .slant-bottom, 
+  .slant-top {
+    display: none;
+  }
+
 }
