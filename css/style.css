@@ -245,4 +245,21 @@ body {
     display: none;
   }
 
+  .hero .buttons a.apply,
+  .hero .buttons a.sponsor {
+    border-width: 8px;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .hero img {
+    width: 250px;
+  }
+
+  .hero hr {
+    border-top-width: 8px;
+    top: -8px;
+  }
+
 }
