@@ -68,6 +68,13 @@ body {
   text-transform: uppercase;
 }
 
+.hero .buttons a:hover,
+.hero .buttons a:focus {
+  background-color: #0F2C34;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
 .hero .buttons .apply {
   margin-right: 10px;
 }
