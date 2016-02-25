@@ -1,4 +1,4 @@
-var typeform_url = "https://codefest1.typeform.com/to/j7BmtO";
+var typeform_url = "https://majorleaguehacking.typeform.com/to/bBZ69R";
 
 var formFill = function() {
   var accessToken = getAccessToken(),
