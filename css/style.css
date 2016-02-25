@@ -23,7 +23,10 @@
 
 body {
   background-color: #44D5FF;
-  overflow-x: hidden;
+}
+
+section {
+  overflow-x:hidden;
 }
 
 /* 
