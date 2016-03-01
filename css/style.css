@@ -46,7 +46,7 @@ section {
   border-top: 15px solid #0F2C34;
   margin: 0;
   position: relative;
-  top: -15px;
+  top: -14px;
 }
 
 .hero .wrapper {
@@ -239,7 +239,7 @@ section {
 }
 
 .footer img {
-  max-width: 100px;
+  max-width: 250px;
   margin-bottom: 15px;
 }
 
