@@ -95,7 +95,7 @@ section {
 .about {
   border-width: 15px 0;
   background-color: #fff;
-  padding: 100px 0;
+  padding: 130px 0;
   position: relative;
 }
 
@@ -118,7 +118,7 @@ section {
 
 .info {
   background-color: #fff;
-  margin-top: 150px;
+  margin-top: 15px;
   padding: 100px 0;
   position: relative;
 }
@@ -148,7 +148,7 @@ section {
 
 .faq {
   background-color: #FF7FA8;
-  margin-top: 150px;
+  margin-top: 15px;
   padding-top: 100px;
   position: relative;
 }
@@ -175,7 +175,6 @@ section {
   font-size: 18px;
   line-height: 1.5em;
 }
-
 
 .faq img {
   margin-bottom: -2px;
