@@ -112,24 +112,6 @@ section {
   text-transform: uppercase;
 }
 
-.about .slant-bottom,
-.about .slant-top {
-  background-color: #fff;
-  height: 80px;
-  position: absolute;
-  width: 105%;
-}
-
-.about .slant-bottom {
-  bottom: -40px;
-  transform: rotate(2deg);
-}
-
-.about .slant-top {
-  top: -40px;
-  transform: rotate(-2deg);
-}
-
 /*
  * Info Section
  */
@@ -158,24 +140,6 @@ section {
 
 .info .item p {
   font-size: 20px;
-}
-
-.info .slant-bottom,
-.info .slant-top {
-  background-color: #fff;
-  height: 80px;
-  position: absolute;
-  width: 105%;
-}
-
-.info .slant-bottom {
-  bottom: -40px;
-  transform: rotate(-2deg);
-}
-
-.info .slant-top {
-  top: -40px;
-  transform: rotate(2deg);
 }
 
 /*
@@ -219,15 +183,6 @@ section {
   width: 300px;
 }
 
-.faq .slant-top {
-  background-color: #FF7FA8;
-  height: 80px;
-  position: absolute;
-  top: -40px;
-  transform: rotate(-2deg);
-  width: 105%;
-}
-
 /*
  * Footer Section
  */
@@ -251,11 +206,6 @@ section {
 }
 
 @media(max-width: 768px) {
-  .slant-bottom, 
-  .slant-top {
-    transform: initial !important;
-  }
-
   .hero .buttons a.apply,
   .hero .buttons a.sponsor {
     border-width: 8px;
@@ -272,5 +222,4 @@ section {
     border-top-width: 8px;
     top: -8px;
   }
-
 }
